@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "ToDoListApps",
+    "name": "Ngelist",
     "slug": "ToDoListApps",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconAppsCircle.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashScreen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "flex": 0.5,
+      "backgroundColor": "#3f51b5"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "ngelist.abillionaire.me"
     },
     "web": {
       "favicon": "./assets/favicon.png"
